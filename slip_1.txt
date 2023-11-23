@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<style type="text/css">
+
+			h1
+			{
+				font-size:6pt;
+				text-align:center;
+				color:red;
+				
+			}
+
+form
+{
+	border:solid;
+	padding:15px;
+	background-color:yellow;
+	color:red;
+}
+
+div
+{
+	padding:10px;
+	height:400px;
+	width:300px;
+	
+}
+		</style>
+	</head>
+
+	<body>
+
+		<div>
+			<h1><u>ProjectManagement</u></h1>
+			
+			<form>
+			Project Name
+				<input type="text" name="pn" placeholder='Project name'><br><br>
+
+
+			Assigned to
+				<select>
+					<option value="Er Merry Petision">Er Merry Petision</option>
+                               		<option value="Er Merry paul">Er Merry paul</option>
+				</select><br><br>
+
+			Start Date
+				<input type="date" name="sd" placeholder='dd-mm-yyyy'><br><br>
+
+			End Date
+				<input type="date" name="ed" placeholder='dd-mm-yyyy'><br><br>
+
+			Priority
+				<input type="radio" name=r1>High
+                    		<input type="radio" name=r1>Average
+                   		<input type="radio" name=r1>Low<br><br>
+
+			Description
+				<input type="textarea" name=desc></textarea><br>
+
+			</form>
+		</div>
+	</body>
+</html>

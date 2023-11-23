@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>
+Titan Fastrack</title>
+<style>
+h1
+{
+	text-align:center;
+	background-color:green;
+	color:red;
+	font-family:"Comic Sans MS";
+}
+p{
+	color:blue;
+}
+</style>
+</head>
+<body>
+<h1>Titan Fastrack</h1>
+<p>
+	Fastrack is a fashion accessory retail brand in india. the company was launched in 1998 as a subbrand of titan watches.in 2005 fastrack began was spun off as .
+</p>
+</body>
+</html>
+

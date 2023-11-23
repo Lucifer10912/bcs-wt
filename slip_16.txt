@@ -1,0 +1,60 @@
+
+<html>
+<body>
+<form action="slip16.php"  method="POST">
+
+<center>MENU</center>
+1.INSERT AN ELEMENT IN STACK<br>
+2.DELETE AN ELEMENT FROM STACK<br>
+3.DISPLAY THE CONTENT OF STACK<br>
+enter your choice:
+<input type="text" name="t1"><br>
+<input type="submit" name="b1">
+</form>
+</body>
+</html>
+Php:
+<?php
+	
+	$choice=$_POST['t1'];
+	$a=array(10,20,1,2,3,4,5,6);
+	Switch($choice)
+	{
+		case 1: echo "<br> ORIGINAL STACK IS: ";
+			foreach($a as $v)
+			{
+				echo "$v\t";
+			}
+			array_push($a,'7','66');
+			echo "<br> after inserting an element in stack is: ";
+			foreach($a as $v)
+			{
+				echo "$v\t";
+			}
+			break;
+
+		case 2:	echo"<br> ORIGINAL STACK IS: ";
+			foreach ($a as $v)
+			{
+				echo" $v\t";
+			}
+			array_pop($a);
+			echo "<br> after deleting an element in stack is: ";
+			foreach($a as $v)
+			{
+				echo "$v\t";
+			}
+			break;
+
+		case 3: echo"<br> ORIGINAL STACK IS: ";
+			foreach ($a as $v)
+			{
+				echo "$v\t";
+			}
+	
+			break;
+
+		case 4: echo "invalid choice";
+				break;
+	}
+?>
